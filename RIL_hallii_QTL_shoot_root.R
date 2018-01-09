@@ -8,7 +8,7 @@ library(qtl)
 
 
 #read in data 
-cross<-read.cross("csv", dir="",file="Table_S2.csv", genotypes=c("AA","BB"))
+cross<-read.cross("csv", dir="",file="Table_S2.csv", genotypes=c("FF","HH"))
 #Seperating markers that are in the same location
 cross<- jittermap(cross)
 #Convert a cross to type "riself" (RIL by selfing)
